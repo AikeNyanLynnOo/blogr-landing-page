@@ -73,7 +73,7 @@
   box-shadow: 0 1px 15px 5px rgb(221, 221, 221, 0.5) inset;
 }
 
-.popup ul span {
+.popup ul li {
   display: block;
   color: #000;
   text-align: center;
@@ -190,15 +190,18 @@
 }
 .nav-bar .ul-lg {
   margin-left: 40px;
+  list-style-type: none;
+  display: inline;
 }
-.nav-bar .ul-lg span {
+.nav-bar .ul-lg li {
+  display: inline;
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   padding: 10px 20px;
   position: relative;
   cursor: pointer;
 }
-.nav-bar .ul-lg span i {
+.nav-bar .ul-lg li i {
   margin-left: 8px;
   font-size: small;
 }
@@ -437,6 +440,10 @@
   color: hsl(0, 0%, 100%);
   padding: 50px 0;
   border-top-right-radius: 80px;
+}
+.footer h3 {
+  font-size: medium;
+  font-weight: normal;
 }
 
 .footer ul {
