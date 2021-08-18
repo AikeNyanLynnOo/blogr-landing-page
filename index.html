@@ -26,16 +26,16 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="header">
-      <img src="images/bg-pattern-intro.svg" alt="bg-pattern-intro"/>
+    <div class="header" role="header">
+      <img src="images/bg-pattern-intro.svg" alt="bg-pattern-intro" />
       <nav class="nav-bar">
         <div class="left">
           <h1>Blogr</h1>
           <ul class="ul-lg">
-            <li href="#">Product<i class="fa fa-chevron-down"></i></li>
-            <li href="#">Company<i class="fa fa-chevron-down"></i></li>
-            <li href="#" id="connect-lg"
-              >Connect<i class="fa fa-chevron-down"></i>
+            <li>Product<i class="fa fa-chevron-down"></i></li>
+            <li>Company<i class="fa fa-chevron-down"></i></li>
+            <li id="connect-lg">
+              Connect<i class="fa fa-chevron-down"></i>
               <div id="opt-connect-lg" class="option-popup">
                 <a href="#">Contact</a>
                 <a href="#">Newsletter</a>
@@ -68,12 +68,12 @@
         <button class="secondary-btn">Learn More</button>
       </div>
     </div>
-    <div class="popup" id="popup">
+    <div class="popup" id="popup" role="popupmenu">
       <ul>
-        <li href="#">Product<i class="fa fa-chevron-down"></i></li>
-        <li href="#">Company<i class="fa fa-chevron-down"></i></li>
-        <li href="#" id="connect-sm"
-          >Connect<i class="fa fa-chevron-down"></i>
+        <li>Product<i class="fa fa-chevron-down"></i></li>
+        <li>Company<i class="fa fa-chevron-down"></i></li>
+        <li id="connect-sm">
+          Connect<i class="fa fa-chevron-down"></i>
           <div id="opt-connect-sm" class="opt-sm">
             <a href="#">Contact</a>
             <a href="#">Newsletter</a>
@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <div class="content-1">
+    <div class="content-1" role="content1">
       <h1>Design for the future</h1>
       <div class="content-flex">
         <div class="info">
@@ -109,10 +109,13 @@
             you’re in full control.
           </p>
         </div>
-        <img src="images/illustration-editor-desktop.svg" alt="illustration-editor-desktop" />
+        <img
+          src="images/illustration-editor-desktop.svg"
+          alt="illustration-editor-desktop"
+        />
       </div>
     </div>
-    <div class="content-2">
+    <div class="content-2" role="content2">
       <span class="circle-container">
         <img
           src="images/bg-pattern-circles.svg"
@@ -133,9 +136,12 @@
         </div>
       </div>
     </div>
-    <div class="content-3">
+    <div class="content-3" role="content3">
       <div class="content-flex">
-        <img src="images/illustration-laptop-desktop.svg" alt="illustration-laptop-desktop" />
+        <img
+          src="images/illustration-laptop-desktop.svg"
+          alt="illustration-laptop-desktop"
+        />
         <div class="info">
           <h2>Free, open, simple</h2>
           <p>
@@ -155,10 +161,10 @@
         </div>
       </div>
     </div>
-    <div class="footer">
-      <h1>Blogr</h1>
+    <div class="footer" role="footer">
+      <h3>Blogr</h3>
       <div>
-        <h3>Product</h3>
+        <h4>Product</h4>
         <ul>
           <li><a href="#">Overview</a></li>
           <li><a href="#">Pricing</a></li>
@@ -168,7 +174,7 @@
         </ul>
       </div>
       <div>
-        <h3>Company</h3>
+        <h4>Company</h4>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Team</a></li>
@@ -178,7 +184,7 @@
         </ul>
       </div>
       <div>
-        <h3>Connect</h3>
+        <h4>Connect</h4>
         <ul>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Newsletter</a></li>

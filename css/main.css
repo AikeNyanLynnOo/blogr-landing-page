@@ -441,7 +441,10 @@
   padding: 50px 0;
   border-top-right-radius: 80px;
 }
-.footer h3 {
+.footer h3{
+  font-size: xx-large;
+}
+.footer h4 {
   font-size: medium;
   font-weight: normal;
 }
