@@ -20,7 +20,11 @@
   padding: 0;
   font-family: "Overpass", sans-serif;
 }
-
+.nav-bar *:not(i),
+.popup *:not(i),
+.footer * {
+  font-family: "Ubuntu", sans-serif;
+}
 /* header start */
 
 .header {
@@ -146,6 +150,7 @@
 /* popupmenu end */
 
 /* nav bar large screen */
+
 .nav-bar {
   position: absolute;
   top: 10px;
@@ -443,7 +448,7 @@
 }
 .footer ul li a {
   text-decoration: none;
-  color: hsl(0, 0%, 100%);
+  color: hsl(240, 2%, 79%);
 }
 .footer ul li a:hover {
   text-decoration: underline;
@@ -521,7 +526,7 @@
   .footer > * {
     width: 100%;
     text-align: center;
-    margin-bottom : 40px;
+    margin-bottom: 40px;
   }
 }
 
